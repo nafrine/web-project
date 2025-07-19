@@ -22,22 +22,47 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <script src="./assets/js/script.js"></script>
+    
 
 </head>
 <body>
     
-    <div class="headline-large">Headline Large</div>
-    <div class="headline-medium">Headline Medium</div>
-    <div class="headline-small">Headline Small</div>
-    <div class="title-large">Title Large</div>
-    <div class="title-medium">Title Medium</div>
-    <div class="title-small">Title Small</div>
-    <div class="body-large">Body Large</div>
-    <div class="body-medium">Body Medium</div>
-    <div class="body-small">Body Small</div>
+    
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="" class="logo">
+                <img src="./assets/images/logo.png" width="190"  alt="wealthome">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li><a href="#" class="navbar-link label-medium active">Home</a></li>
+                    <li><a href="#" class="navbar-link label-medium">Rent</a></li>
+                    <li><a href="#" class="navbar-link label-medium">Sell</a></li>
+                    <li><a href="#" class="navbar-link label-medium">Buy</a></li>
+                    <li><a href="#" class="navbar-link label-medium">About</a></li>
+                </ul>
+
+                <div class="navbar-wrapper">
+                    <a href="#" class="btn-link label-medium">Login</a>
+
+                    <a href="#" class="btn btn-fill label-small">Get Started</a>
+                </div>
+            </nav>
+
+
+            <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+                <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+                <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+            </button>
+
+        </div>
+    </header>
 
 
 
 </body>
+
+<script src="./assets/js/script.js"></script>
 </html>
